@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer">
+    <p id="display1">00:00</p>
+    <button onclick="startTimer(1)">Start</button>
+    <button onclick="stopTimer(1)">Stop</button>
+  </div>
+  <div class="timer">
+    <p id="display2">00:00</p>
+    <button onclick="startTimer(2)">Start</button>
+    <button onclick="stopTimer(2)">Stop</button>
+  </div>
+  <div class="timer">
+    <p id="display3">00:00</p>
+    <button onclick="startTimer(3)">Start</button>
+    <button onclick="stopTimer(3)">Stop</button>
+  </div>
+  <button onclick="stopAllTimers()">Stop All</button>
+
+  <script src="test2.js"></script>
+</body>
+</html>
